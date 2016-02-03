@@ -1,0 +1,26 @@
+{
+  "name": "chatcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "cat"
+  ],
+  "author": "duyna",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "hogan-express": "^0.5.2",
+    "mongoose": "^4.3.7",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "socket.io": "^1.4.5"
+  }
+}
